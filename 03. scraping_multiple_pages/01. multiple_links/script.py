@@ -29,8 +29,6 @@ for link in box.find_all('a', href=True):
 for link in links[:2]:
     website = f'{root}/{link}'
     result = requests.get(website)
-    # prevents rate limiting
-    time.sleep(random.uniform(2, 5))
     content = result.text
     soup = BeautifulSoup(content, 'lxml')
 
@@ -45,3 +43,6 @@ for link in links[:2]:
 
     with open(f'{title}.text', 'w') as file:
         file.write(transcript)
+
+    # Delay at the bottom ensures rate-limiting is handled properly
+    time.sleep(random.uniform(2, 5))

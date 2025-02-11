@@ -22,7 +22,6 @@ last_page = pages[-2].text
 for page in range(1, int(last_page)+1)[:2]:
 
     result = requests.get(f'{website}?page={page}')
-    time.sleep(random.uniform(2, 5))
     content = result.text
     soup = BeautifulSoup(content, 'lxml')
 
@@ -60,3 +59,9 @@ for page in range(1, int(last_page)+1)[:2]:
         except:
             print('------ Link not working ----')
             print(link)
+
+        # Move sleep to the bottom of the loop
+        time.sleep(random.uniform(2, 5))
+
+    # Add sleep here to prevent too many pagination requests
+    time.sleep(random.uniform(2, 5))
