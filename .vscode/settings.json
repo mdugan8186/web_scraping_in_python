@@ -3,7 +3,10 @@
         "adbl",
         "genspider",
         "getall",
+        "KHTML",
         "runspider",
+        "scrapy",
+        "startproject",
         "worldometers"
     ]
 }
