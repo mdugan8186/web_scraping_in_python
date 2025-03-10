@@ -1,12 +1,17 @@
 {
-    "cSpell.words": [
-        "adbl",
-        "genspider",
-        "getall",
-        "KHTML",
-        "runspider",
-        "scrapy",
-        "startproject",
-        "worldometers"
-    ]
+  "cSpell.words": [
+    "adbl",
+    "csvfeed",
+    "genspider",
+    "getall",
+    "KHTML",
+    "linkextractors",
+    "runspider",
+    "scrapy",
+    "startproject",
+    "subslikescript",
+    "worldometers",
+    "xmlfeed",
+    "xpaths"
+  ]
 }
