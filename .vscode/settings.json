@@ -2,6 +2,8 @@
   "cSpell.words": [
     "adbl",
     "csvfeed",
+    "formdata",
+    "formxpath",
     "genspider",
     "getall",
     "KHTML",
@@ -10,6 +12,7 @@
     "scrapy",
     "startproject",
     "subslikescript",
+    "toscrape",
     "worldometers",
     "xmlfeed",
     "xpaths"
